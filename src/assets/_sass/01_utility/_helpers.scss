@@ -35,7 +35,7 @@
     bottom: 5px;
 	}
 	&::after {
-		content: url("/assets/images/caret.svg");
+		content: url("assets/images/caret.svg");
 		font-size: rem(16);
 		padding: 3px 4px;
 	}
@@ -50,7 +50,7 @@
 	}
 
 	&::before {
-		content: url("/assets/images/i-warning-circle.svg");
+		content: url("assets/images/i-warning-circle.svg");
 		font-size: rem(16);
 		padding: 3px 4px 3px 0;
 	}

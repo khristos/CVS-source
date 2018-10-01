@@ -1,0 +1,10 @@
+.your__items .box {
+  border-radius: 0;
+  border-bottom: 2px solid #f5f5f5;
+  box-shadow: none;
+  padding: 0 0 1.25rem .75rem;
+
+  @include tablet {
+    padding: 0 0 1.25rem 1.25rem;
+  }
+}

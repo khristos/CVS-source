@@ -1,0 +1,34 @@
+//
+//-- Masthead
+//
+
+.page__header {
+	background-color: $cvs-red;
+	
+	@include tablet {
+		background-color: $white;
+		fill: $white;
+	}
+
+}
+
+.page__logo {
+	margin: 0;
+	padding-top: .825em;
+	padding-left: .75em;
+	width: 10em;
+	a {
+		display: block;
+	}
+
+	@include tablet {
+		width: em(318);
+	}
+
+	.svg {
+		filter: brightness(0) invert(1);
+		@include tablet {
+			filter: invert(0);
+		}
+	}
+}

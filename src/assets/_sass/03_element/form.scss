@@ -1,0 +1,18 @@
+.your__items .your__search {
+  display: inline-block;
+}
+
+.your__items .your__search .input {
+  width: rem(180);
+}
+
+.your__items .your__search .your__label {
+  width: rem(180);
+  display: block;
+  font-weight: bold;
+}
+
+.your__items .your__search .button {
+  background-color: $cvs-red;
+  color: $white;
+}

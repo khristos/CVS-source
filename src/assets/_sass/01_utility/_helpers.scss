@@ -1,0 +1,67 @@
+//
+//-- Helper Classes
+//
+
+.clearfix, .grid-float {
+	&::before, &::after {
+		content: "";
+		display: table;
+	}
+
+	&::after {
+		clear: both;
+	}
+}
+
+.ma {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ac {
+	text-align: center;
+}
+
+.flex-center {
+	@include flex-center;
+}
+
+.has-text-link-jump {
+	a {
+		color: $cvs-red;
+		font-size: rem(14);
+		font-weight: bold;
+		position: relative;
+    bottom: 5px;
+	}
+	&::after {
+		content: url("/assets/images/caret.svg");
+		font-size: rem(16);
+		padding: 3px 4px;
+	}
+}
+
+.has-attention {
+	span {
+		font-size: rem(16);
+		font-weight: bold;
+		position: relative;
+    bottom: 5px;
+	}
+
+	&::before {
+		content: url("/assets/images/i-warning-circle.svg");
+		font-size: rem(16);
+		padding: 3px 4px;
+	}
+}
+
+.has-status-hold {
+	color: $cvs-red;
+	font-weight: bold;
+}
+
+.has-status-inprocess {
+	color: $black;
+	font-weight: bold;
+}

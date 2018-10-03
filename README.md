@@ -22,3 +22,7 @@ npm run build:dev
 npm start 
 ```
 
+## Temporary Web Server
+From working directory type:
+
+$ npx http-server --cors

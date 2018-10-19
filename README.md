@@ -31,4 +31,4 @@ $ npx http-server --cors
 ## Nice to have
 
 Static site generator (ELEVENTY)
-Scaffolding (HYGEN)
+Scaffolding (HYGEN)  http://www.hygen.io/

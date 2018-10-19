@@ -26,3 +26,9 @@ npm start
 From working directory type:
 
 $ npx http-server --cors
+
+
+## Nice to have
+
+Static site generator (ELEVENTY)
+Scaffolding (HYGEN)
